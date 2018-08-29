@@ -15,7 +15,7 @@ build:
 
 requirements:
   build:
-    - libtool
+    - libtool  # [not win]
     - {{ compiler('c') }}
   host:
     - libpng
